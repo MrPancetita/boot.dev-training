@@ -1,7 +1,9 @@
 # https://www.boot.dev/lessons/49315eb1-0da5-4346-ae36-d518f78873c1
 
 def print_status(player_health):
-    # ?
+    if player_health == 0:
+        print("dead")
+    print("status check complete")
 
 
 # Don't edit below this line
