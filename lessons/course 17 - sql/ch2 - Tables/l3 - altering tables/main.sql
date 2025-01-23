@@ -1,0 +1,8 @@
+ALTER TABLE people RENAME TO users;
+ALTER TABLE users RENAME COLUMN tag to username;
+ALTER TABLE users ADD COLUMN password TEXT; 
+
+
+-- TEST SUITE, DON'T TOUCH BELOW THIS LINE --
+
+PRAGMA TABLE_INFO('users');
