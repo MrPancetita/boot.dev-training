@@ -10,6 +10,4 @@ GROUP BY class_id
 HAVING ...
 ```
 
-WHERE
-HAVING
-
+A: WHERE
