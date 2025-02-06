@@ -11,8 +11,4 @@ WHERE artist_id IN (
     WHERE artist_name LIKE 'Rick%'
 );
 
-
-zero
-potentially many
-one
-no more than one
+A: potentially many
